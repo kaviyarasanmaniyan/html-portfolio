@@ -1,0 +1,104 @@
+
+
+/* Global variables */
+
+:root{
+    --primary:#12bdff;
+    --dark-primary:#1b1f24;
+}
+
+
+
+
+*{
+
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+
+
+
+}
+
+body{
+
+font-family: 'nunito sans',sans-serif;
+
+}
+
+
+
+
+header{
+
+    background-color:var(--dark-primary);
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+list-style: none;
+display: flex
+
+}
+
+ul li{
+
+margin-right: 20px;
+
+}
+/* logo */
+
+header .logo{
+
+color: var(--primary);
+font-weight: bold;
+letter-spacing:2px;
+
+
+}
+
+
+ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+ul li a:hover{
+
+color: var(--primary);
+
+
+}
+
+
+/* header > buttons */
+
+
+header button{
+
+padding: 13px 15px;
+font-weight: bold;
+background-color:var(--dark-primary);
+border: 1px solid var(--primary);
+color: var(--primary);
+border-radius: 5px;
+
+}
+header button:hover{
+
+cursor: pointer;
+background-color: var(--primary);
+color: #fff;
+
+}
+
+
+
+
+
