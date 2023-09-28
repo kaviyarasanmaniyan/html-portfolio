@@ -75,6 +75,7 @@ header div a{
     color: #fff;
     text-decoration: none;
     
+    
 }
 
 
@@ -102,12 +103,12 @@ section.hero-section{
 
      font-size: 50px;
      font-weight: 900;
-     content: attr(2);
-     color: #12bdff;
      
+}
 
-    
+.hero-img--section > span{
 
+    color: var(--primary);
 }
 
 
@@ -136,8 +137,6 @@ ul.social-icons {
 
 }
 
-
-
 .social-icons li a{
 
    text-decoration: none;
@@ -160,9 +159,17 @@ ul.social-icons {
 }
 .social-icons li a > i.fa-twitter:hover{
 color: #26a7de;
-
 }
 /* buttons */
+
+
+.hero-buttons button{
+
+margin-right: 10px;
+    
+}
+
+
 .btn{
 padding: 10px 20px;
 border-radius: 2px;
@@ -172,8 +179,8 @@ cursor: pointer;
 .btn.btn-primary{
 
   background-color: var(--primary);
-  font-weight: 700;
-  color: #fff;
+  font-weight: 600;
+  color: var(--dark-primary);
 
 }
 .btn.btn-primary:hover{
@@ -186,27 +193,22 @@ cursor: pointer;
 
 
 .btn-dark-outlined{  
+   background-color: var(--dark-primary);
+   border: 1px solid var(--primary);
+   color: var(--primary);
+   border-radius:5px ;
+   font-weight: 600;
+   
 
-
-    
 
 }
 
-header button{
-
-    padding: 13px 15px;
-    font-weight: bold;
-    background-color:var(--dark-primary);
-    border: 1px solid var(--primary);
-    color: var(--primary);
-    border-radius: 5px;
-    
-    }
-    header button:hover{
+.btn-dark-outlined:hover{
     
     cursor: pointer;
     background-color: var(--primary);
-    color: #fff;}
+    color: #fff;
+}
 
-    .btn-dark-outlined{  
-    }
+
+    
