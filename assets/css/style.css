@@ -45,6 +45,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    
 }
 
 
@@ -102,6 +104,7 @@ section.hero-section{
         display: flex;
         align-items: center;
         padding: 20px 30px 0 30px;
+        
         
        
 
@@ -450,11 +453,18 @@ background-color: var(--primary-hover);
     section.hero-section{
       flex-direction: column;
       padding: 40px;
+      
     }
     /* about-section */
     section.about-section{
       flex-direction: column;
      
+    }
+
+    section.hero-section img{
+
+   display: none;
+
     }
     .about-section--desc{
       
@@ -477,5 +487,9 @@ background-color: var(--primary-hover);
     .contact-section form input,textarea{
       width: 100%;
     }
+    .hero-pic img{
+      margin-top: 40px;
+    }
+   
   }
                         
