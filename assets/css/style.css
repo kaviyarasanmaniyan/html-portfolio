@@ -23,6 +23,10 @@ box-sizing: border-box;
 
 
 }
+html{
+
+  scroll-behavior: smooth;
+}
 
 body{
 
@@ -375,4 +379,55 @@ cursor: pointer;
 background-color: var(--primary-hover);
 
    }
+    
+   /* contact CSS */
+
+   .contact-section{
+
+    background-color: #14171c;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
    
+
+   }
+   .contact-section h4{
+
+   font-size: 30px;
+   margin: 20px 0;
+   font-weight: 700;
+
+   }
+   .contact-section h4 span{
+
+    color: var(--primary);
+   }
+
+   
+   .contact-section form div > input,textarea{
+
+    padding: 5px 10px;
+    outline:none ;
+    width: 300px;
+    background-color: #f3f0e8;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 10px;
+     resize: none;
+     font-family: 'nunito sans',sans-serif;
+    
+     
+   }
+   footer{
+     background-color: var(--dark-primary);
+     color:gray;
+     padding: 20px 0;
+     text-align: center;
+     font-size: 14px;
+
+   }
+   footer a{
+   text-decoration: none;
+   color: #12bdff;
+
+   }
